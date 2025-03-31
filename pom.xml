@@ -4,10 +4,10 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.devoteam</groupId>
+  <groupId>vertx.devoteam</groupId>
   <artifactId>services</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>devoteam-services</name>
+  <name>devoteam-vertx</name>
 
   <properties>
     <vertx.version>4.3.5</vertx.version>
@@ -41,11 +41,6 @@
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-web</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>ch.qos.logback</groupId>
-      <artifactId>logback-core</artifactId>
-      <version>1.5.17</version>
     </dependency>
   </dependencies>
   <build>
